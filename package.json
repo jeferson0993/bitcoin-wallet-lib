@@ -1,0 +1,14 @@
+{
+  "name": "bitcoin-wallet-lib",
+  "version": "1.0.0",
+  "description": "A a lightweight vanilla JavaScript library for generating and managing Bitcoin wallets using the BIP39 standard. It supports various address formats, private key conversions, WIF, and QR Code generation. It works seamlessly in both the browser (via CDN) and Node.js environments.",
+  "main": "src/index.js",
+  "unpkg": "src/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["bitcoin", "wallet", "cryptocurrency"],
+  "author": "Jeferson F Silva",
+  "license": "MIT"
+}
