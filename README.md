@@ -18,7 +18,7 @@
 
 ## 📦 Installation
 
-### Option 1: CDN (Browser)
+### Option: CDN (Browser)
 
 ```html
 <script src="https://unpkg.com/bitcoin-wallet-lib"></script>
@@ -32,23 +32,6 @@ Or via jsDelivr:
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/bitcoin-wallet-lib"></script>
-```
-
-### Option 2: NPM (Node JS)
-
-```bash
-npm install bitcoin-wallet-lib
-````
-
-```js
-const {
-  getMnemonic,
-  getWalletFromMnemonic,
-  Wallet
-} = require('bitcoin-wallet-lib');
-
-const mnemonic: string = getMnemonic();
-const wallet: Wallet = getWalletFromMnemonic(mnemonic);
 ```
 
 ---
@@ -120,19 +103,6 @@ Converts a private key to WIF (Wallet Import Format).
 ### `getWalletFromWIF(wif: string): WalletObject`
 
 Restores a wallet object from a WIF string.
-
----
-
-## 🛠️ TypeScript Support
-
-Type definitions are included out of the box. Enjoy full IntelliSense and static type checking.
-
-```ts
-import { getMnemonic, Wallet } from 'bitcoin-wallet-lib';
-
-const mnemonic: string = getMnemonic();
-const wallet: Wallet = getWalletFromMnemonic(mnemonic);
-```
 
 ---
 
